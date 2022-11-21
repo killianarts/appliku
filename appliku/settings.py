@@ -117,7 +117,7 @@ USE_TZ = True
 WHITENOISE_USE_FINDERS = True
 if DEBUG:
     WHITENOISE_AUTOREFRESH = True
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 STATIC_URL = 'static/'
 # STATICFILES_DIRS = [
